@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-blue: hsl(238, 29%, 16%);
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  overflow: hidden;
+  display: flex;
+  padding: 2rem;
+}
+
+
+.woman-image {
+  object-fit: contain;
+  position: relative;
+  right: 7rem;
+}
+
+.faq-container {
+  width: 50%;
+  line-height: 3.5;
+}
+
+.faq-container h3 {
+  font-size: .75rem;
+}
+
+svg {
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.photo-left-row {
+  width: 50%;
+}
+
+.box-image {
+  position: absolute;
+  top: 11rem;
+  left: -5rem;
+  z-index: 2;
+}
+
+.faq-question {
+  color: hsl(240, 6%, 50%);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.faq-answer {
+  color: hsl(240, 6%, 50%);
+  font-size: .75rem;
+  line-height: 1.5;
+}
+
+.QA-components {
+  border-width: 1px;
+  border-style: solid;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-color: hsl(240, 5%, 91%);
+}
+
+h1 {
+  color: var(--dark-blue);
+}
+
+.faq-question img {
+  object-fit: contain;
+}
+
+.background-container {
+  position: relative;
+  width: 800px;
+  /* height: 500px; */
+  background-color: white;
+  border-radius: 1rem;
+  background-image: url(../faq-accordion-card-main/images/bg-pattern-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25rem -15rem;
+
+}
